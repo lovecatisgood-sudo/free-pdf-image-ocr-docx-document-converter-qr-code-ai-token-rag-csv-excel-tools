@@ -1,0 +1,66 @@
+{
+  "name": "djai-document-tools",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Free, private browser tools for documents, OCR, AI context, tokens, CSV, JSON, and spreadsheets.",
+  "license": "MIT",
+  "author": "DJAI Academy / Siamese Cat Dev",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lovecatisgood-sudo/free-pdf-image-ocr-docx-document-converter-qr-code-ai-token-rag-csv-excel-tools.git",
+    "directory": "djai-document-tools"
+  },
+  "homepage": "https://www.djai.academy/tools/",
+  "bugs": {
+    "url": "https://github.com/lovecatisgood-sudo/free-pdf-image-ocr-docx-document-converter-qr-code-ai-token-rag-csv-excel-tools/issues"
+  },
+  "type": "module",
+  "engines": {
+    "node": ">=22.13.0"
+  },
+  "scripts": {
+    "dev": "next dev",
+    "prebuild": "node scripts/copy-assets.mjs",
+    "build": "next build && node scripts/set-export-language.mjs",
+    "lint": "eslint .",
+    "test": "node --experimental-strip-types --test tests/*.test.mjs"
+  },
+  "dependencies": {
+    "@tesseract.js-data/eng": "1.0.0",
+    "@tesseract.js-data/tha": "1.0.0",
+    "docx": "9.7.1",
+    "docx-preview": "0.4.0",
+    "dompurify": "3.4.12",
+    "exceljs": "4.4.0",
+    "gpt-tokenizer": "3.4.0",
+    "html2canvas": "1.4.1",
+    "jspdf": "4.2.1",
+    "jszip": "3.10.1",
+    "lucide-react": "1.25.0",
+    "mammoth": "1.12.0",
+    "next": "16.2.12",
+    "papaparse": "5.5.4",
+    "pdfjs-dist": "6.1.200",
+    "react": "19.2.7",
+    "react-dom": "19.2.7",
+    "tesseract.js": "7.0.0",
+    "turndown": "7.2.4"
+  },
+  "devDependencies": {
+    "@types/node": "22.19.19",
+    "@types/papaparse": "5.5.2",
+    "@types/react": "19.2.14",
+    "@types/react-dom": "19.2.3",
+    "@types/turndown": "5.0.6",
+    "eslint": "9.39.5",
+    "eslint-config-next": "16.2.12",
+    "typescript": "5.9.3"
+  },
+  "overrides": {
+    "brace-expansion": "5.0.8",
+    "minimatch": "10.2.5",
+    "postcss": "8.5.23",
+    "sharp": "0.35.3",
+    "uuid": "11.1.1"
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "name": "free-pdf-image-ocr-docx-document-converter-qr-code-ai-token-rag-csv-excel-tools",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Free private PDF, image, OCR, DOCX, QR, AI token, RAG, CSV, JSON and Excel tools by DJAI Academy and Siamese Cat Dev.",
+  "license": "MIT",
+  "author": "DJAI Academy / Siamese Cat Dev",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lovecatisgood-sudo/free-pdf-image-ocr-docx-document-converter-qr-code-ai-token-rag-csv-excel-tools.git"
+  },
+  "homepage": "https://www.djai.academy/tools/en/",
+  "bugs": {
+    "url": "https://github.com/lovecatisgood-sudo/free-pdf-image-ocr-docx-document-converter-qr-code-ai-token-rag-csv-excel-tools/issues"
+  },
+  "engines": {
+    "node": ">=22.13.0"
+  },
+  "scripts": {
+    "setup": "node scripts/run-all.mjs install",
+    "build": "node scripts/run-all.mjs build",
+    "lint": "node scripts/run-all.mjs lint",
+    "test": "node scripts/run-all.mjs test",
+    "validate:repo": "node scripts/validate-repository.mjs"
+  }
+}

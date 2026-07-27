@@ -1,0 +1,2 @@
+# Generated browser worker copied from the pinned pdfjs-dist package at build time.
+public/pdf.worker.min.mjs

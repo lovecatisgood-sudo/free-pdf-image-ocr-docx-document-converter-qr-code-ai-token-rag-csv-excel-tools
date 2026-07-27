@@ -1,0 +1,30 @@
+{
+  "name": "djai-image-resizer",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Free, private browser image conversion, resizing, compression, HEIC, and batch tools by DJAI Academy and Siamese Cat Dev.",
+  "scripts": {
+    "build": "node scripts/build.mjs",
+    "test": "npm run build && node --test tests/*.test.mjs",
+    "start": "node server.js",
+    "dev": "node --watch server.js"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "license": "MIT",
+  "author": "DJAI Academy / Siamese Cat Dev",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lovecatisgood-sudo/free-pdf-image-ocr-docx-document-converter-qr-code-ai-token-rag-csv-excel-tools.git",
+    "directory": "djai-image-resizer"
+  },
+  "homepage": "https://www.djai.academy/tools/resizeimg/",
+  "bugs": {
+    "url": "https://github.com/lovecatisgood-sudo/free-pdf-image-ocr-docx-document-converter-qr-code-ai-token-rag-csv-excel-tools/issues"
+  },
+  "dependencies": {
+    "heic2any": "0.0.4",
+    "jszip": "3.10.1"
+  }
+}

@@ -1,0 +1,43 @@
+name: CI
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+
+permissions:
+  contents: read
+
+jobs:
+  test:
+    name: ${{ matrix.name }}
+    runs-on: ubuntu-latest
+    strategy:
+      fail-fast: false
+      matrix:
+        include:
+          - name: QR Generator
+            directory: DJayTools-Free-QR-Generator-Source
+            command: npm test
+          - name: Image Tools
+            directory: djai-image-resizer
+            command: npm test
+          - name: PDF Tools
+            directory: djai-pdf-tools
+            command: npm run build && npm test
+          - name: Document, AI, and Spreadsheet Tools
+            directory: djai-document-tools
+            command: npm run build && npm test
+    defaults:
+      run:
+        working-directory: ${{ matrix.directory }}
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22.13.0
+          cache: npm
+          cache-dependency-path: ${{ matrix.directory }}/package-lock.json
+      - run: npm ci
+      - run: npm run lint --if-present
+      - run: ${{ matrix.command }}

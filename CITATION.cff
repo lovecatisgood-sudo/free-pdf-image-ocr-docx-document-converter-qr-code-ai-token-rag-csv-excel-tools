@@ -1,0 +1,11 @@
+cff-version: 1.2.0
+message: "If this software helps your work, please cite or credit DJAI Academy / Siamese Cat Dev."
+title: "Free PDF, Image, OCR, DOCX, QR, AI Token/RAG, CSV and Excel Tools"
+type: software
+authors:
+  - name: "DJAI Academy / Siamese Cat Dev"
+repository-code: "https://github.com/lovecatisgood-sudo/free-pdf-image-ocr-docx-document-converter-qr-code-ai-token-rag-csv-excel-tools"
+url: "https://www.djai.academy/tools/en/"
+license: MIT
+version: 1.0.0
+date-released: 2026-07-27

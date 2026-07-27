@@ -1,0 +1,7 @@
+node_modules/
+.next/
+out/
+public/djai-assets/
+public/document/pdf.worker.min.mjs
+public/document/ocr-runtime/
+public/document/ocr-data/

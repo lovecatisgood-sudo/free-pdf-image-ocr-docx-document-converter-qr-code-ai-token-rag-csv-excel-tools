@@ -1,0 +1,18 @@
+version: 2
+updates:
+  - package-ecosystem: npm
+    directory: /DJayTools-Free-QR-Generator-Source
+    schedule:
+      interval: monthly
+  - package-ecosystem: npm
+    directory: /djai-image-resizer
+    schedule:
+      interval: monthly
+  - package-ecosystem: npm
+    directory: /djai-pdf-tools
+    schedule:
+      interval: monthly
+  - package-ecosystem: npm
+    directory: /djai-document-tools
+    schedule:
+      interval: monthly

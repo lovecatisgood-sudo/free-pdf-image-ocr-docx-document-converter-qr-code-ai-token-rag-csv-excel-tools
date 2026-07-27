@@ -1,0 +1,43 @@
+name: Feature request
+description: Suggest an improvement to the open-source tools.
+title: "[Feature]: "
+labels: ["enhancement", "triage"]
+body:
+  - type: dropdown
+    id: tool
+    attributes:
+      label: Tool area
+      options:
+        - QR Generator
+        - Image Tools
+        - PDF Tools
+        - Document Tools
+        - AI/Context Tools
+        - Spreadsheet Tools
+        - New tool
+        - Repository or documentation
+    validations:
+      required: true
+  - type: textarea
+    id: problem
+    attributes:
+      label: Problem or use case
+    validations:
+      required: true
+  - type: textarea
+    id: proposal
+    attributes:
+      label: Proposed solution
+    validations:
+      required: true
+  - type: textarea
+    id: alternatives
+    attributes:
+      label: Alternatives considered
+  - type: checkboxes
+    id: local
+    attributes:
+      label: Processing model
+      options:
+        - label: I considered whether this can remain private and browser-local.
+          required: true
