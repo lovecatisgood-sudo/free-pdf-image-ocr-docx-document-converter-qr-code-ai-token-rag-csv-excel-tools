@@ -9,6 +9,18 @@ Free PDF tools, image converter and compressor, Thai-English OCR, DOCX converter
 
 > Your files stay on your device. The included conversion tools do not require an account, upload files to a processing backend, or add watermarks.
 
+## Follow Siamese Cat Dev
+
+Want new privacy-first tools, open-source releases, and independent-development updates? Read the [Siamese Cat Dev bio](https://www.djai.academy/siamese_cat/dev/en/), [follow @lovecatisgood-sudo on GitHub](https://github.com/lovecatisgood-sudo), or connect on social media:
+
+<p>
+  <a href="https://x.com/siamesecatdev"><img src="assets/social/x.png" alt="" width="28"> <strong>X: @siamesecatdev</strong></a>&nbsp;&nbsp;
+  <a href="https://www.instagram.com/djcatdev/"><img src="assets/social/instagram.png" alt="" width="28"> <strong>Instagram: @djcatdev</strong></a>&nbsp;&nbsp;
+  <a href="https://www.facebook.com/people/Siamese-Cat-Dev/61592514145429/"><img src="assets/social/facebook.png" alt="" width="28"> <strong>Facebook</strong></a>
+</p>
+
+Following and sharing are optional, but they help more people discover the tools, DJAI Academy, and the community work connected with [Siamese Cat Cafe](https://siamesecat.cafe/).
+
 ## Try the tools
 
 | Tool collection | English | ไทย | Source |
@@ -219,4 +231,7 @@ The MIT License covers the software but does not grant trademark rights or permi
 
 - GitHub: [@lovecatisgood-sudo](https://github.com/lovecatisgood-sudo)
 - Developer profile: [Siamese Cat Dev](https://www.djai.academy/siamese_cat/dev/en/)
+- X: [@siamesecatdev](https://x.com/siamesecatdev)
+- Instagram: [@djcatdev](https://www.instagram.com/djcatdev/)
+- Facebook: [Siamese Cat Dev on Facebook](https://www.facebook.com/people/Siamese-Cat-Dev/61592514145429/)
 - Website: [DJAI Academy](https://www.djai.academy/)

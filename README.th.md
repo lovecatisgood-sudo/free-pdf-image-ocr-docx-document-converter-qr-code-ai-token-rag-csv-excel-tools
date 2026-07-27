@@ -9,6 +9,18 @@
 
 > ไฟล์อยู่ในอุปกรณ์ของคุณ เครื่องมือแปลงไฟล์ในชุดนี้ไม่บังคับสมัครบัญชี ไม่อัปโหลดไฟล์ไปยัง backend สำหรับประมวลผล และไม่ใส่ลายน้ำในไฟล์ผลลัพธ์
 
+## ติดตาม Siamese Cat Dev
+
+หากต้องการติดตามเครื่องมือที่รักษาความเป็นส่วนตัว open-source release และข่าวงานพัฒนาของนักพัฒนาอิสระ สามารถอ่าน [ประวัติ Siamese Cat Dev](https://www.djai.academy/siamese_cat/dev/), [ติดตาม @lovecatisgood-sudo บน GitHub](https://github.com/lovecatisgood-sudo) หรือติดตามผ่าน social media:
+
+<p>
+  <a href="https://x.com/siamesecatdev"><img src="assets/social/x.png" alt="" width="28"> <strong>X: @siamesecatdev</strong></a>&nbsp;&nbsp;
+  <a href="https://www.instagram.com/djcatdev/"><img src="assets/social/instagram.png" alt="" width="28"> <strong>Instagram: @djcatdev</strong></a>&nbsp;&nbsp;
+  <a href="https://www.facebook.com/people/Siamese-Cat-Dev/61592514145429/"><img src="assets/social/facebook.png" alt="" width="28"> <strong>Facebook</strong></a>
+</p>
+
+การติดตามและแชร์ไม่ใช่ข้อบังคับ แต่ช่วยให้ผู้คนค้นพบเครื่องมือ DJAI Academy และงานชุมชนที่เชื่อมโยงกับ [Siamese Cat Cafe](https://siamesecat.cafe/) ได้มากขึ้น
+
 ## ทดลองใช้เครื่องมือ
 
 | หมวดเครื่องมือ | ภาษาไทย | English | โฟลเดอร์ซอร์สโค้ด |
@@ -206,4 +218,7 @@ NEXT_PUBLIC_GA_ID=G-XXXXXXXXXX npm run build
 
 - GitHub: [@lovecatisgood-sudo](https://github.com/lovecatisgood-sudo)
 - โปรไฟล์นักพัฒนา: [Siamese Cat Dev](https://www.djai.academy/siamese_cat/dev/)
+- X: [@siamesecatdev](https://x.com/siamesecatdev)
+- Instagram: [@djcatdev](https://www.instagram.com/djcatdev/)
+- Facebook: [Siamese Cat Dev บน Facebook](https://www.facebook.com/people/Siamese-Cat-Dev/61592514145429/)
 - เว็บไซต์: [DJAI Academy](https://www.djai.academy/)
